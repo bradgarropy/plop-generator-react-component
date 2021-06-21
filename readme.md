@@ -10,25 +10,41 @@
 [![contributors][contributors-badge]][contributors]
 [![discord][discord-badge]][discord]
 
-_Starter for `react` libraries._
-
-// TODO: write intro section.
+_A [`plop`][plop] generator for [`react`][react] components._
 
 ## 📦 Installation
 
-This package is hosted on [npm][npm].
+This package is hosted on [`npm`][npm].
 
 ```bash
-npm install @bradgarropy/plop-generator-react-component
+npm install --save-dev @bradgarropy/plop-generator-react-component
 ```
 
 ## 🥑 Usage
 
-// TODO: Write usage section.
+First, be sure you have `plop` installed. Then, add the following line to your `plopfile.js`.
 
-## 📖 API Reference
+```javascript
+plop.load("@bradgarropy/plop-generator-react-component")
+```
 
-// TODO: Write api reference section.
+Now you'll have access to the `component` generator as shown below.
+
+```bash
+plop component
+```
+
+The `component` generator scaffolds a component, including tests and an associated css module. The resulting directory looks like this for a component named `Component`.
+
+```text
+src
+└── components
+   └── Component
+      ├── index.ts
+      ├── Component.tsx
+      ├── Component.test.tsx
+      └── Component.module.css
+```
 
 ## ❔ Questions
 
@@ -72,3 +88,5 @@ npm install @bradgarropy/plop-generator-react-component
 [typescript-badge]: https://img.shields.io/npm/types/@bradgarropy/plop-generator-react-component?style=flat-square
 [discord]: https://bradgarropy.com/discord
 [discord-badge]: https://img.shields.io/discord/748196643140010015?style=flat-square
+[plop]: https://plopjs.com
+[react]: https://reactjs.org
