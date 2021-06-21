@@ -21,13 +21,13 @@ In order to submit a pull request, you'll have to setup your own development env
 Then you can clone the forked repository to your system.
 
 ```bash
-git clone https://github.com/<username>/node-library-starter
+git clone https://github.com/<username>/plop-generator-react-component
 ```
 
 Next you need to install the dependencies.
 
 ```bash
-cd node-library-starter
+cd plop-generator-react-component
 npm install
 ```
 
@@ -92,7 +92,7 @@ I appreciate any and all types of contributions to this project! Contributors ar
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://bradgarropy.com"><img src="https://avatars.githubusercontent.com/u/11336745?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brad Garropy</b></sub></a><br /><a href="https://github.com/bradgarropy/node-library-starter/commits?author=bradgarropy" title="Code">💻</a> <a href="https://github.com/bradgarropy/node-library-starter/commits?author=bradgarropy" title="Documentation">📖</a> <a href="https://github.com/bradgarropy/node-library-starter/commits?author=bradgarropy" title="Tests">⚠️</a> <a href="#infra-bradgarropy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://bradgarropy.com"><img src="https://avatars.githubusercontent.com/u/11336745?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brad Garropy</b></sub></a><br /><a href="https://github.com/bradgarropy/plop-generator-react-component/commits?author=bradgarropy" title="Code">💻</a> <a href="https://github.com/bradgarropy/plop-generator-react-component/commits?author=bradgarropy" title="Documentation">📖</a> <a href="https://github.com/bradgarropy/plop-generator-react-component/commits?author=bradgarropy" title="Tests">⚠️</a> <a href="#infra-bradgarropy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
   </tr>
 </table>
 
@@ -101,9 +101,9 @@ I appreciate any and all types of contributions to this project! Contributors ar
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-[issues]: https://github.com/bradgarropy/node-library-starter/issues
+[issues]: https://github.com/bradgarropy/plop-generator-react-component/issues
 [codesandbox]: https://codesandbox.io
 [kcd-pr]: https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
-[license]: https://github.com/bradgarropy/node-library-starter/blob/master/license
-[fork]: https://github.com/bradgarropy/node-library-starter/fork
-[contributors]: https://github.com/bradgarropy/node-library-starter#-contributors
+[license]: https://github.com/bradgarropy/plop-generator-react-component/blob/master/license
+[fork]: https://github.com/bradgarropy/plop-generator-react-component/fork
+[contributors]: https://github.com/bradgarropy/plop-generator-react-component#-contributors
