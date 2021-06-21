@@ -22,7 +22,7 @@ npm install --save-dev @bradgarropy/plop-generator-react-component
 
 ## 🥑 Usage
 
-First, be sure you have `plop` installed. Then, add the following line to your `plopfile.js`.
+First, be sure you have [`plop`][plop] installed. Then, add the following line to your `plopfile.js`.
 
 ```javascript
 plop.load("@bradgarropy/plop-generator-react-component")
