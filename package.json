@@ -43,7 +43,7 @@
         "test": "jest --passWithNoTests",
         "test:watch": "jest --passWithNoTests --watch",
         "contributors": "all-contributors generate",
-        "prepare": "tsc"
+        "prepare": "npm run build"
     },
     "dependencies": {
         "tslib": "^2.3.0"
