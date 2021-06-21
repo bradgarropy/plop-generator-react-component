@@ -73,8 +73,8 @@ src
 [contributors]: #-contributors
 [npm]: https://www.npmjs.com/package/@bradgarropy/plop-generator-react-component
 [codecov-badge]: https://img.shields.io/codecov/c/github/bradgarropy/plop-generator-react-component?style=flat-square
-[version-badge]: https://img.shields.io/npm/v/@bradgarropy/react-library-start.svg?style=flat-square
-[downloads-badge]: https://img.shields.io/npm/dt/@bradgarropy/react-library-start?style=flat-square
+[version-badge]: https://img.shields.io/npm/v/@bradgarropy/plop-generator-react-component.svg?style=flat-square
+[downloads-badge]: https://img.shields.io/npm/dt/@bradgarropy/plop-generator-react-component?style=flat-square
 [contributing-badge]: https://img.shields.io/badge/PRs-welcome-success?style=flat-square
 [contributors-badge]: https://img.shields.io/github/all-contributors/bradgarropy/plop-generator-react-component?style=flat-square
 [issues]: https://github.com/bradgarropy/plop-generator-react-component/issues
