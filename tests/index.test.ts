@@ -1,9 +1,8 @@
-import sayHello from "../src"
+import nodePlop from "node-plop"
 
-test("says hello world", () => {
-    expect(sayHello()).toEqual("Hello, world!")
-})
+import generator from "../src"
 
-test("says hello brad", () => {
-    expect(sayHello("Brad")).toEqual("Hello, Brad!")
+test("loads generator", () => {
+    const plop = nodePlop("tests/utils/plopfile.ts")
+    expect(generator(plop)).toBeUndefined()
 })
