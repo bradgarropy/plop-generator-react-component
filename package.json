@@ -45,6 +45,9 @@
         "contributors": "all-contributors generate",
         "prepare": "tsc"
     },
+    "dependencies": {
+        "tslib": "^2.3.0"
+    },
     "peerDependencies": {
         "plop": "^2.7.4"
     },
@@ -70,8 +73,5 @@
     },
     "engines": {
         "node": ">=10"
-    },
-    "dependencies": {
-        "tslib": "^2.3.0"
     }
 }
