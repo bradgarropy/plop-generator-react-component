@@ -1,5 +1,9 @@
 {
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "new": "plop"
+    },
+    "dependencies": {
+        "plop": "^2.7.4"
     }
 }
