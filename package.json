@@ -1,6 +1,6 @@
 {
     "name": "@bradgarropy/plop-generator-react-component",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "💧 plop generator react component",
     "keywords": [
         "node",
@@ -46,30 +46,30 @@
         "prepare": "npm run build"
     },
     "dependencies": {
-        "tslib": "^2.3.0"
+        "tslib": "^2.3.1"
     },
     "peerDependencies": {
         "plop": "^2.7.4"
     },
     "devDependencies": {
-        "@bradgarropy/eslint-config": "^1.1.0",
-        "@bradgarropy/eslint-config-typescript": "^1.0.0",
-        "@types/jest": "^26.0.20",
-        "@typescript-eslint/eslint-plugin": "^4.14.2",
-        "@typescript-eslint/parser": "^4.14.2",
+        "@bradgarropy/eslint-config": "^1.2.3",
+        "@bradgarropy/eslint-config-typescript": "^1.0.3",
+        "@types/jest": "^27.4.0",
+        "@typescript-eslint/eslint-plugin": "^5.11.0",
+        "@typescript-eslint/parser": "^5.11.0",
         "all-contributors-cli": "^6.20.0",
         "babel-eslint": "^10.1.0",
-        "eslint": "^7.19.0",
-        "eslint-config-prettier": "^7.1.0",
+        "eslint": "^8.9.0",
+        "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-simple-import-sort": "^7.0.0",
         "husky": "^4.3.8",
-        "jest": "^26.6.3",
+        "jest": "^27.5.1",
         "lint-staged": "^10.5.4",
         "node-plop": "^0.26.2",
         "plop": "^2.7.4",
-        "prettier": "^2.2.1",
-        "ts-jest": "^26.5.0",
-        "typescript": "^4.1.3"
+        "prettier": "^2.5.1",
+        "ts-jest": "^27.1.3",
+        "typescript": "^4.5.5"
     },
     "engines": {
         "node": ">=10"

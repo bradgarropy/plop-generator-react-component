@@ -20,14 +20,12 @@ const component = {
         },
         {
             type: "add",
-            path:
-                "src/components/{{pascalCase name}}/{{pascalCase name}}.test.tsx",
+            path: "src/components/{{pascalCase name}}/{{pascalCase name}}.test.tsx",
             templateFile: "./templates/test.hbs",
         },
         {
             type: "add",
-            path:
-                "src/components/{{pascalCase name}}/{{pascalCase name}}.module.css",
+            path: "src/components/{{pascalCase name}}/{{pascalCase name}}.module.css",
             templateFile: "./templates/styles.hbs",
         },
     ],
